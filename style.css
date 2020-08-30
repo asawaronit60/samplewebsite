@@ -1,0 +1,53 @@
+
+.img-fluid{
+  max-width: 100%;
+  height: auto;
+
+}
+#logo{
+  width: 6rem;
+  height: 6rem;
+}
+.na-links{
+margin-left: 40rem;
+font-size: 30px;
+
+}
+.top-links{
+    position:relative;
+    
+    border-top:6px solid red;
+    border-width: 5px;
+}
+
+.team_role{
+  font-size: 22px;
+  font-family: Aclonica;
+  position: relative;
+  bottom:20px;
+
+}
+.co{
+font-family: Alatsi;
+font-size: 30px;
+}
+.form{
+margin-left: 45px;
+font-size: 30px;
+}
+
+.border{
+ position: relative;
+ top:-2rem;
+ box-shadow: 5px 10px 10px cornflowerblue;
+ }
+
+.container1{
+ background-image: url("contactimage.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+  position :relative;
+  color:red;
+height: 1000px;
+}
+
