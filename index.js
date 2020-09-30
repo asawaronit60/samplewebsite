@@ -3,7 +3,7 @@ $(".l1").on({
 mouseover : function()
 {
     $(this).css("top","-6px");    
-$(this).css("color","red");
+$(this).css("color","green");
 $(this).addClass("top-links");
     
 },
@@ -29,8 +29,8 @@ else{
 $(window).scroll(function() {
     if 
     ($(document).scrollTop() >800) {
-     $(".navbar").addClass("bg-dark");
-     $(".l1").css("color","white");
+     $(".navbar").addClass("bg-light");
+     $(".l1").css("color","red");
     } 
    else
     {
@@ -58,7 +58,7 @@ mouseenter: function()
         $(this).addClass("border");
   
         $(this).css({"border-color": "black", 
-                    "border-weight":"1px", 
+                    "border-weight":"2px", 
                     "border-style":"solid"
                      });
 
@@ -69,8 +69,8 @@ mouseleave: function()
 {
 $(this).css("color","black");
 $(this).removeClass("border");
-$(this).css({"border-color": "white", 
-"border-weight":"1px", 
+$(this).css({"border-color": "red", 
+"border-weight":"2px", 
 "border-style":"solid"
 });
 
